@@ -1,0 +1,1170 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Materialize Icons</title>
+
+<!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+
+<!--<link rel="stylesheet" href="css/materialize.css" media="screen,projection" />-->
+<link rel="stylesheet" href="css/extra.css" />
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+</head>
+
+<body>
+
+<div class="navbar-fixed">
+    <nav>
+        <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo">Logo</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#">Sass</a></li>
+                <li><a href="#">Components</a></li>
+                <li><a href="#">Javascript</a></li>
+                <li><a href="#">Mobile</a></li>
+                <!-- Dropdown Trigger -->
+                <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+            </ul>
+            <ul id="dropdown1" class="dropdown-content">
+                <li><a href="#!">one</a></li>
+                <li><a href="#!">two</a></li>
+                <li class="divider"></li>
+                <li><a href="#!">three</a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+                <li><a href="#">Sass</a></li>
+                <li><a href="#">Components</a></li>
+                <li><a href="#">Javascript</a></li>
+                <li><a href="#">Mobile</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+
+
+<div class="wrapper">
+
+<!-------------1------------>
+<h2>Materialize Icons</h2>
+
+<div class="how-to-use">
+    <h3>Setup Method 2. Self hosting</h3>
+    <p>For those looking to self host the web font, some additional setup is necessary. Host the <a href="https://github.com/google/material-design-icons/tree/master/iconfont">icon font</a> in a location, for example <code>https://example.com/material-icons.woff</code> and add the following CSS rule:</p>
+    <pre>
+    <code class="lang-css">
+    @font-face {
+      font-family: 'Material Icons';
+      font-style: normal;
+      font-weight: 400;
+      src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+      src: local('Material Icons'),
+        local('MaterialIcons-Regular'),
+        url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+        url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+        url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+    }</code>
+    </pre>
+    <p>In addition, the CSS rules for rendering the icon will need to be declared to render the font properly. These rules are normally served as part of the Google Web Font stylesheet, but will need to be included manually in your projects when
+    self-hosting the font:</p>
+    <pre>
+    <code class="lang-css">
+    .material-icons {
+      font-family: 'Material Icons';
+      font-weight: normal;
+      font-style: normal;
+      font-size: 24px;  /* Preferred icon size */
+      display: inline-block;
+      line-height: 1;
+      text-transform: none;
+      letter-spacing: normal;
+      word-wrap: normal;
+      white-space: nowrap;
+      direction: ltr;
+    
+      /* Support for all WebKit browsers. */
+      -webkit-font-smoothing: antialiased;
+      /* Support for Safari and Chrome. */
+      text-rendering: optimizeLegibility;
+    
+      /* Support for Firefox. */
+      -moz-osx-font-smoothing: grayscale;
+    
+      /* Support for IE. */
+      font-feature-settings: 'liga';
+    }
+    </code>
+    </pre>
+    <h3>Using the icons in HTML</h3>
+    <p>It’s easy to incorporate icons into your web page. Here’s a small example:</p>
+    <div class="icons-preview-code">
+        <div class="icons-preview">
+            <i class="material-icons">face</i>
+        </div>
+        <div class="icons-code">
+            <code>&lt;i class="material-icons"&gt;face&lt;/i&gt;</code>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="input-field col md-12">
+        <input type="text" class="validate" id="myInput" onkeyup="myFunction()">
+        <label for="myInput" class="">Search for names..</label>
+    </div>
+</div>
+
+<div class="mat-icon-big" id="myUL">
+<h3>Action</h3>
+<ul>
+<li><i class="material-icons">3d_rotation</i>3d_rotation</li>
+<li><i class="material-icons">accessibility</i>accessibility</li>
+<li><i class="material-icons">accessible</i>accessible</li>
+<li><i class="material-icons">account_balance</i>account_balance</li>
+<li><i class="material-icons">account_balance_wallet</i>account_balance_wallet</li>
+<li><i class="material-icons">account_box</i>account_box</li>
+<li><i class="material-icons">account_circle</i>account_circle</li>
+<li><i class="material-icons">add_shopping_cart</i>add_shopping_cart</li>
+<li><i class="material-icons">alarm</i>alarm</li>
+<li><i class="material-icons">alarm_add</i>alarm_add</li>
+<li><i class="material-icons">alarm_off</i>alarm_off</li>
+<li><i class="material-icons">alarm_on</i>alarm_on</li>
+<li><i class="material-icons">all_out</i>all_out</li>
+<li><i class="material-icons">android</i>android</li>
+<li><i class="material-icons">announcement</i>announcement</li>
+<li><i class="material-icons">aspect_ratio</i>aspect_ratio</li>
+<li><i class="material-icons">assessment</i>assessment</li>
+<li><i class="material-icons">assignment</i>assignment</li>
+<li><i class="material-icons">assignment_ind</i>assignment_ind</li>
+<li><i class="material-icons">assignment_late</i>assignment_late</li>
+<li><i class="material-icons">assignment_return</i>assignment_return</li>
+<li><i class="material-icons">assignment_returned</i>assignment_returned</li>
+<li><i class="material-icons">assignment_turned_in</i>assignment_turned_in</li>
+<li><i class="material-icons">autorenew</i>autorenew</li>
+<li><i class="material-icons">backup</i>backup</li>
+<li><i class="material-icons">book</i>book</li>
+<li><i class="material-icons">bookmark</i>bookmark</li>
+<li><i class="material-icons">bookmark_border</i>bookmark_border</li>
+<li><i class="material-icons">bug_report</i>bug_report</li>
+<li><i class="material-icons">build</i>build</li>
+<li><i class="material-icons">cached</i>cached</li>
+<li><i class="material-icons">camera_enhance</i>camera_enhance</li>
+<li><i class="material-icons">card_giftcard</i>card_giftcard</li>
+<li><i class="material-icons">card_membership</i>card_membership</li>
+<li><i class="material-icons">card_travel</i>card_travel</li>
+<li><i class="material-icons">change_history</i>change_history</li>
+<li><i class="material-icons">check_circle</i>check_circle</li>
+<li><i class="material-icons">chrome_reader_mode</i>chrome_reader_mode</li>
+<li><i class="material-icons">class</i>class</li>
+<li><i class="material-icons">code</i>code</li>
+<li><i class="material-icons">compare_arrows</i>compare_arrows</li>
+<li><i class="material-icons">copyright</i>copyright</li>
+<li><i class="material-icons">credit_card</i>credit_card</li>
+<li><i class="material-icons">dashboard</i>dashboard</li>
+<li><i class="material-icons">date_range</i>date_range</li>
+<li><i class="material-icons">delete</i>delete</li>
+<li><i class="material-icons">delete_forever</i>delete_forever</li>
+<li><i class="material-icons">description</i>description</li>
+<li><i class="material-icons">dns</i>dns</li>
+<li><i class="material-icons">done</i>done</li>
+<li><i class="material-icons">done_all</i>done_all</li>
+<li><i class="material-icons">donut_large</i>donut_large</li>
+<li><i class="material-icons">donut_small</i>donut_small</li>
+<li><i class="material-icons">eject</i>eject</li>
+<li><i class="material-icons">euro_symbol</i>euro_symbol</li>
+<li><i class="material-icons">event</i>event</li>
+<li><i class="material-icons">event_seat</i>event_seat</li>
+<li><i class="material-icons">exit_to_app</i>exit_to_app</li>
+<li><i class="material-icons">explore</i>explore</li>
+<li><i class="material-icons">extension</i>extension</li>
+<li><i class="material-icons">face</i>face</li>
+<li><i class="material-icons">favorite</i>favorite</li>
+<li><i class="material-icons">favorite_border</i>favorite_border</li>
+<li><i class="material-icons">feedback</i>feedback</li>
+<li><i class="material-icons">find_in_page</i>find_in_page</li>
+<li><i class="material-icons">find_replace</i>find_replace</li>
+<li><i class="material-icons">fingerprint</i>fingerprint</li>
+<li><i class="material-icons">flight_land</i>flight_land</li>
+<li><i class="material-icons">flight_takeoff</i>flight_takeoff</li>
+<li><i class="material-icons">flip_to_back</i>flip_to_back</li>
+<li><i class="material-icons">flip_to_front</i>flip_to_front</li>
+<li><i class="material-icons">g_translate</i>g_translate</li>
+<li><i class="material-icons">gavel</i>gavel</li>
+<li><i class="material-icons">get_app</i>get_app</li>
+<li><i class="material-icons">gif</i>gif</li>
+<li><i class="material-icons">grade</i>grade</li>
+<li><i class="material-icons">group_work</i>group_work</li>
+<li><i class="material-icons">help</i>help</li>
+<li><i class="material-icons">help_outline</i>help_outline</li>
+<li><i class="material-icons">highlight_off</i>highlight_off</li>
+<li><i class="material-icons">history</i>history</li>
+<li><i class="material-icons">home</i>home</li>
+<li><i class="material-icons">hourglass_empty</i>hourglass_empty</li>
+<li><i class="material-icons">hourglass_full</i>hourglass_full</li>
+<li><i class="material-icons">http</i>http</li>
+<li><i class="material-icons">https</i>https</li>
+<li><i class="material-icons">important_devices</i>important_devices</li>
+<li><i class="material-icons">info</i>info</li>
+<li><i class="material-icons">info_outline</i>info_outline</li>
+<li><i class="material-icons">input</i>input</li>
+<li><i class="material-icons">invert_colors</i>invert_colors</li>
+<li><i class="material-icons">label</i>label</li>
+<li><i class="material-icons">label_outline</i>label_outline</li>
+<li><i class="material-icons">language</i>language</li>
+<li><i class="material-icons">launch</i>launch</li>
+<li><i class="material-icons">lightbulb_outline</i>lightbulb_outline</li>
+<li><i class="material-icons">line_style</i>line_style</li>
+<li><i class="material-icons">line_weight</i>line_weight</li>
+<li><i class="material-icons">list</i>list</li>
+<li><i class="material-icons">lock</i>lock</li>
+<li><i class="material-icons">lock_open</i>lock_open</li>
+<li><i class="material-icons">lock_outline</i>lock_outline</li>
+<li><i class="material-icons">loyalty</i>loyalty</li>
+<li><i class="material-icons">markunread_mailbox</i>markunread_mailbox</li>
+<li><i class="material-icons">motorcycle</i>motorcycle</li>
+<li><i class="material-icons">note_add</i>note_add</li>
+<li><i class="material-icons">offline_pin</i>offline_pin</li>
+<li><i class="material-icons">opacity</i>opacity</li>
+<li><i class="material-icons">open_in_browser</i>open_in_browser</li>
+<li><i class="material-icons">open_in_new</i>open_in_new</li>
+<li><i class="material-icons">open_with</i>open_with</li>
+<li><i class="material-icons">pageview</i>pageview</li>
+<li><i class="material-icons">pan_tool</i>pan_tool</li>
+<li><i class="material-icons">payment</i>payment</li>
+<li><i class="material-icons">perm_camera_mic</i>perm_camera_mic</li>
+<li><i class="material-icons">perm_contact_calendar</i>perm_contact_calendar</li>
+<li><i class="material-icons">perm_data_setting</i>perm_data_setting</li>
+<li><i class="material-icons">perm_device_information</i>perm_device_information</li>
+<li><i class="material-icons">perm_identity</i>perm_identity</li>
+<li><i class="material-icons">perm_media</i>perm_media</li>
+<li><i class="material-icons">perm_phone_msg</i>perm_phone_msg</li>
+<li><i class="material-icons">perm_scan_wifi</i>perm_scan_wifi</li>
+<li><i class="material-icons">pets</i>pets</li>
+<li><i class="material-icons">picture_in_picture</i>picture_in_picture</li>
+<li><i class="material-icons">picture_in_picture_alt</i>picture_in_picture_alt</li>
+<li><i class="material-icons">play_for_work</i>play_for_work</li>
+<li><i class="material-icons">polymer</i>polymer</li>
+<li><i class="material-icons">power_settings_new</i>power_settings_new</li>
+<li><i class="material-icons">pregnant_woman</i>pregnant_woman</li>
+<li><i class="material-icons">print</i>print</li>
+<li><i class="material-icons">query_builder</i>query_builder</li>
+<li><i class="material-icons">question_answer</i>question_answer</li>
+<li><i class="material-icons">receipt</i>receipt</li>
+<li><i class="material-icons">record_voice_over</i>record_voice_over</li>
+<li><i class="material-icons">redeem</i>redeem</li>
+<li><i class="material-icons">remove_shopping_cart</i>remove_shopping_cart</li>
+<li><i class="material-icons">reorder</i>reorder</li>
+<li><i class="material-icons">report_problem</i>report_problem</li>
+<li><i class="material-icons">restore</i>restore</li>
+<li><i class="material-icons">restore_page</i>restore_page</li>
+<li><i class="material-icons">room</i>room</li>
+<li><i class="material-icons">rounded_corner</i>rounded_corner</li>
+<li><i class="material-icons">rowing</i>rowing</li>
+<li><i class="material-icons">schedule</i>schedule</li>
+<li><i class="material-icons">search</i>search</li>
+<li><i class="material-icons">settings</i>settings</li>
+<li><i class="material-icons">settings_applications</i>settings_applications</li>
+<li><i class="material-icons">settings_backup_restore</i>settings_backup_restore</li>
+<li><i class="material-icons">settings_bluetooth</i>settings_bluetooth</li>
+<li><i class="material-icons">settings_brightness</i>settings_brightness</li>
+<li><i class="material-icons">settings_cell</i>settings_cell</li>
+<li><i class="material-icons">settings_ethernet</i>settings_ethernet</li>
+<li><i class="material-icons">settings_input_antenna</i>settings_input_antenna</li>
+<li><i class="material-icons">settings_input_component</i>settings_input_component</li>
+<li><i class="material-icons">settings_input_composite</i>settings_input_composite</li>
+<li><i class="material-icons">settings_input_hdmi</i>settings_input_hdmi</li>
+<li><i class="material-icons">settings_input_svideo</i>settings_input_svideo</li>
+<li><i class="material-icons">settings_overscan</i>settings_overscan</li>
+<li><i class="material-icons">settings_phone</i>settings_phone</li>
+<li><i class="material-icons">settings_power</i>settings_power</li>
+<li><i class="material-icons">settings_remote</i>settings_remote</li>
+<li><i class="material-icons">settings_voice</i>settings_voice</li>
+<li><i class="material-icons">shop</i>shop</li>
+<li><i class="material-icons">shop_two</i>shop_two</li>
+<li><i class="material-icons">shopping_basket</i>shopping_basket</li>
+<li><i class="material-icons">shopping_cart</i>shopping_cart</li>
+<li><i class="material-icons">speaker_notes</i>speaker_notes</li>
+<li><i class="material-icons">speaker_notes_off</i>speaker_notes_off</li>
+<li><i class="material-icons">spellcheck</i>spellcheck</li>
+<li><i class="material-icons">star_rate</i>star_rate</li>
+<li><i class="material-icons">stars</i>stars</li>
+<li><i class="material-icons">store</i>store</li>
+<li><i class="material-icons">subject</i>subject</li>
+<li><i class="material-icons">supervisor_account</i>supervisor_account</li>
+<li><i class="material-icons">swap_horiz</i>swap_horiz</li>
+<li><i class="material-icons">swap_vert</i>swap_vert</li>
+<li><i class="material-icons">swap_vertical_circle</i>swap_vertical_circle</li>
+<li><i class="material-icons">system_update_alt</i>system_update_alt</li>
+<li><i class="material-icons">tab</i>tab</li>
+<li><i class="material-icons">tab_unselected</i>tab_unselected</li>
+<li><i class="material-icons">theaters</i>theaters</li>
+<li><i class="material-icons">thumb_down</i>thumb_down</li>
+<li><i class="material-icons">thumb_up</i>thumb_up</li>
+<li><i class="material-icons">thumbs_up_down</i>thumbs_up_down</li>
+<li><i class="material-icons">timeline</i>timeline</li>
+<li><i class="material-icons">toc</i>toc</li>
+<li><i class="material-icons">today</i>today</li>
+<li><i class="material-icons">toll</i>toll</li>
+<li><i class="material-icons">touch_app</i>touch_app</li>
+<li><i class="material-icons">track_changes</i>track_changes</li>
+<li><i class="material-icons">translate</i>translate</li>
+<li><i class="material-icons">trending_down</i>trending_down</li>
+<li><i class="material-icons">trending_flat</i>trending_flat</li>
+<li><i class="material-icons">trending_up</i>trending_up</li>
+<li><i class="material-icons">turned_in</i>turned_in</li>
+<li><i class="material-icons">turned_in_not</i>turned_in_not</li>
+<li><i class="material-icons">update</i>update</li>
+<li><i class="material-icons">verified_user</i>verified_user</li>
+<li><i class="material-icons">view_agenda</i>view_agenda</li>
+<li><i class="material-icons">view_array</i>view_array</li>
+<li><i class="material-icons">view_carousel</i>view_carousel</li>
+<li><i class="material-icons">view_column</i>view_column</li>
+<li><i class="material-icons">view_day</i>view_day</li>
+<li><i class="material-icons">view_headline</i>view_headline</li>
+<li><i class="material-icons">view_list</i>view_list</li>
+<li><i class="material-icons">view_module</i>view_module</li>
+<li><i class="material-icons">view_quilt</i>view_quilt</li>
+<li><i class="material-icons">view_stream</i>view_stream</li>
+<li><i class="material-icons">view_week</i>view_week</li>
+<li><i class="material-icons">visibility</i>visibility</li>
+<li><i class="material-icons">visibility_off</i>visibility_off</li>
+<li><i class="material-icons">watch_later</i>watch_later</li>
+<li><i class="material-icons">work</i>work</li>
+<li><i class="material-icons">youtube_searched_for</i>youtube_searched_for</li>
+<li><i class="material-icons">zoom_in</i>zoom_in</li>
+<li><i class="material-icons">zoom_out</i>zoom_out</li>
+</ul>
+
+<h3>Alert</h3>
+<ul>
+<li><i class="material-icons">add_alert</i>add_alert</li>
+<li><i class="material-icons">error</i>error</li>
+<li><i class="material-icons">error_outline</i>error_outline</li>
+<li><i class="material-icons">warning</i>warning</li>
+</ul>
+
+<h3>AV</h3>
+<ul>
+<li><i class="material-icons">add_to_queue</i>add_to_queue</li>
+<li><i class="material-icons">airplay</i>airplay</li>
+<li><i class="material-icons">album</i>album</li>
+<li><i class="material-icons">art_track</i>art_track</li>
+<li><i class="material-icons">av_timer</i>av_timer</li>
+<li><i class="material-icons">branding_watermark</i>branding_watermark</li>
+
+<li><i class="material-icons">call_to_action</i>call_to_action</li>
+<li><i class="material-icons">closed_caption</i>closed_caption</li>
+<li><i class="material-icons">equalizer</i>equalizer</li>
+<li><i class="material-icons">explicit</i>explicit</li>
+<li><i class="material-icons">fast_forward</i>fast_forward</li>
+<li><i class="material-icons">fast_rewind</i>fast_rewind</li>
+<li><i class="material-icons">featured_play_list</i>featured_play_list</li>
+<li><i class="material-icons">featured_video</i>featured_video</li>
+<li><i class="material-icons">fiber_dvr</i>fiber_dvr</li>
+<li><i class="material-icons">fiber_manual_record</i>fiber_manual_record</li>
+
+<li><i class="material-icons">fiber_new</i>fiber_new</li>
+<li><i class="material-icons">fiber_pin</i>fiber_pin</li>
+<li><i class="material-icons">fiber_smart_record</i>fiber_smart_record</li>
+<li><i class="material-icons">forward_10</i>forward_10</li>
+<li><i class="material-icons">forward_30</i>forward_30</li>
+<li><i class="material-icons">forward_5</i>forward_5</li>
+<li><i class="material-icons">games</i>games</li>
+<li><i class="material-icons">hd</i>hd</li>
+<li><i class="material-icons">hearing</i>hearing</li>
+<li><i class="material-icons">high_quality</i>high_quality</li>
+
+<li><i class="material-icons">library_add</i>library_add</li>
+<li><i class="material-icons">library_books</i>library_books</li>
+<li><i class="material-icons">library_music</i>library_music</li>
+<li><i class="material-icons">loop</i>loop</li>
+<li><i class="material-icons">mic</i>mic</li>
+<li><i class="material-icons">mic_none</i>mic_none</li>
+<li><i class="material-icons">mic_off</i>mic_off</li>
+<li><i class="material-icons">movie</i>movie</li>
+<li><i class="material-icons">music_video</i>music_video</li>
+<li><i class="material-icons">new_releases</i>new_releases</li>
+
+<li><i class="material-icons">not_interested</i>not_interested</li>
+<li><i class="material-icons">note</i>note</li>
+<li><i class="material-icons">pause</i>pause</li>
+<li><i class="material-icons">pause_circle_filled</i>pause_circle_filled</li>
+<li><i class="material-icons">pause_circle_outline</i>pause_circle_outline</li>
+<li><i class="material-icons">play_arrow</i>play_arrow</li>
+<li><i class="material-icons">play_circle_filled</i>play_circle_filled</li>
+<li><i class="material-icons">play_circle_outline</i>play_circle_outline</li>
+<li><i class="material-icons">playlist_add</i>playlist_add</li>
+<li><i class="material-icons">playlist_add_check</i>playlist_add_check</li>
+<li><i class="material-icons">playlist_play</i>playlist_play</li>
+
+<li><i class="material-icons">queue</i>queue</li>
+<li><i class="material-icons">queue_music</i>queue_music</li>
+<li><i class="material-icons">queue_play_next</i>queue_play_next</li>
+<li><i class="material-icons">radio</i>radio</li>
+<li><i class="material-icons">recent_actors</i>recent_actors</li>
+<li><i class="material-icons">remove_from_queue</i>remove_from_queue</li>
+<li><i class="material-icons">repeat</i>repeat</li>
+<li><i class="material-icons">repeat_one</i>repeat_one</li>
+<li><i class="material-icons">replay</i>replay</li>
+<li><i class="material-icons">replay_10</i>replay_10</li>
+<li><i class="material-icons">replay_30</i>replay_30</li>
+<li><i class="material-icons">replay_5</i>replay_5</li>
+<li><i class="material-icons">shuffle</i>shuffle</li>
+<li><i class="material-icons">skip_next</i>skip_next</li>
+<li><i class="material-icons">skip_previous</i>skip_previous</li>
+<li><i class="material-icons">slow_motion_video</i>slow_motion_video</li>
+
+
+
+<li><i class="material-icons">snooze</i>snooze</li>
+<li><i class="material-icons">sort_by_alpha</i>sort_by_alpha</li>
+<li><i class="material-icons">stop</i>stop</li>
+<li><i class="material-icons">subscriptions</i>subscriptions</li>
+<li><i class="material-icons">subtitles</i>subtitles</li>
+<li><i class="material-icons">surround_sound</i>surround_sound</li>
+<li><i class="material-icons">video_call</i>video_call</li>
+<li><i class="material-icons">video_label</i>video_label</li>
+<li><i class="material-icons">video_library</i>video_library</li>
+<li><i class="material-icons">videocam</i>videocam</li>
+<li><i class="material-icons">videocam_off</i>videocam_off</li>
+<li><i class="material-icons">volume_down</i>volume_down</li>
+<li><i class="material-icons">volume_mute</i>volume_mute</li>
+<li><i class="material-icons">volume_off</i>volume_off</li>
+<li><i class="material-icons">volume_up</i>volume_up</li>
+<li><i class="material-icons">web</i>web</li>
+<li><i class="material-icons">web_asset</i>web_asset</li>
+</ul>
+
+<h3>Communication</h3>
+<ul>
+<li><i class="material-icons">business</i>business</li>
+<li><i class="material-icons">call</i>call</li>
+<li><i class="material-icons">call_end</i>call_end</li>
+<li><i class="material-icons">call_made</i>call_made</li>
+<li><i class="material-icons">call_merge</i>call_merge</li>
+<li><i class="material-icons">call_missed</i>call_missed</li>
+<li><i class="material-icons">call_missed_outgoing</i>call_missed_outgoing</li>
+<li><i class="material-icons">call_received</i>call_received</li>
+<li><i class="material-icons">call_split</i>call_split</li>
+<li><i class="material-icons">chat</i>chat</li>
+<li><i class="material-icons">chat_bubble</i>chat_bubble</li>
+<li><i class="material-icons">chat_bubble_outline</i>chat_bubble_outline</li>
+<li><i class="material-icons">clear_all</i>clear_all</li>
+<li><i class="material-icons">comment</i>comment</li>
+<li><i class="material-icons">contact_mail</i>contact_mail</li>
+
+<li><i class="material-icons">contact_phone</i>contact_phone</li>
+<li><i class="material-icons">contacts</i>contacts</li>
+<li><i class="material-icons">dialer_sip</i>dialer_sip</li>
+<li><i class="material-icons">dialpad</i>dialpad</li>
+<li><i class="material-icons">email</i>email</li>
+<li><i class="material-icons">forum</i>forum</li>
+<li><i class="material-icons">import_contacts</i>import_contacts</li>
+<li><i class="material-icons">import_export</i>import_export</li>
+<li><i class="material-icons">invert_colors_off</i>invert_colors_off</li>
+<li><i class="material-icons">live_help</i>live_help</li>
+<li><i class="material-icons">location_off</i>location_off</li>
+<li><i class="material-icons">location_on</i>location_on</li>
+<li><i class="material-icons">mail_outline</i>mail_outline</li>
+<li><i class="material-icons">message</i>message</li>
+<li><i class="material-icons">no_sim</i>no_sim</li>
+<li><i class="material-icons">phone</i>phone</li>
+<li><i class="material-icons">phonelink_erase</i>phonelink_erase</li>
+<li><i class="material-icons">phonelink_lock</i>phonelink_lock</li>
+<li><i class="material-icons">phonelink_ring</i>phonelink_ring</li>
+<li><i class="material-icons">phonelink_setup</i>phonelink_setup</li>
+<li><i class="material-icons">portable_wifi_off</i>portable_wifi_off</li>
+<li><i class="material-icons">present_to_all</i>present_to_all</li>
+<li><i class="material-icons">ring_volume</i>ring_volume</li>
+<li><i class="material-icons">rss_feed</i>rss_feed</li>
+<li><i class="material-icons">screen_share</i>screen_share</li>
+<li><i class="material-icons">speaker_phone</i>speaker_phone</li>
+<li><i class="material-icons">stay_current_landscape</i>stay_current_landscape</li>
+<li><i class="material-icons">stay_current_portrait</i>stay_current_portrait</li>
+<li><i class="material-icons">stay_primary_landscape</i>stay_primary_landscape</li>
+<li><i class="material-icons">stay_primary_portrait</i>stay_primary_portrait</li>
+<li><i class="material-icons">stop_screen_share</i>stop_screen_share</li>
+<li><i class="material-icons">swap_calls</i>swap_calls</li>
+<li><i class="material-icons">textsms</i>textsms</li>
+<li><i class="material-icons">voicemail</i>voicemail</li>
+<li><i class="material-icons">vpn_key</i>vpn_key</li>
+</ul>
+
+<h3>Content</h3>
+<ul>
+<li><i class="material-icons">add</i>add</li>
+<li><i class="material-icons">add_box</i>add_box</li>
+<li><i class="material-icons">add_circle</i>add_circle</li>
+<li><i class="material-icons">add_circle_outline</i>add_circle_outline</li>
+<li><i class="material-icons">archive</i>archive</li>
+<li><i class="material-icons">backspace</i>backspace</li>
+<li><i class="material-icons">block</i>block</li>
+<li><i class="material-icons">clear</i>clear</li>
+<li><i class="material-icons">content_copy</i>content_copy</li>
+<li><i class="material-icons">content_cut</i>content_cut</li>
+<li><i class="material-icons">content_paste</i>content_paste</li>
+<li><i class="material-icons">create</i>create</li>
+<li><i class="material-icons">delete_sweep</i>delete_sweep</li>
+<li><i class="material-icons">drafts</i>drafts</li>
+<li><i class="material-icons">filter_list</i>filter_list</li>
+<li><i class="material-icons">flag</i>flag</li>
+<li><i class="material-icons">font_download</i>font_download</li>
+<li><i class="material-icons">forward</i>forward</li>
+<li><i class="material-icons">gesture</i>gesture</li>
+<li><i class="material-icons">inbox</i>inbox</li>
+<li><i class="material-icons">link</i>link</li>
+<li><i class="material-icons">low_priority</i>low_priority</li>
+<li><i class="material-icons">mail</i>mail</li>
+<li><i class="material-icons">markunread</i>markunread</li>
+<li><i class="material-icons">move_to_inbox</i>move_to_inbox</li>
+<li><i class="material-icons">next_week</i>next_week</li>
+<li><i class="material-icons">redo</i>redo</li>
+<li><i class="material-icons">remove</i>remove</li>
+<li><i class="material-icons">remove_circle</i>remove_circle</li>
+<li><i class="material-icons">remove_circle_outline</i>remove_circle_outline</li>
+<li><i class="material-icons">reply</i>reply</li>
+<li><i class="material-icons">reply_all</i>reply_all</li>
+<li><i class="material-icons">report</i>report</li>
+<li><i class="material-icons">save</i>save</li>
+<li><i class="material-icons">select_all</i>select_all</li>
+<li><i class="material-icons">send</i>send</li>
+<li><i class="material-icons">sort</i>sort</li>
+<li><i class="material-icons">text_format</i>text_format</li>
+<li><i class="material-icons">unarchive</i>unarchive</li>
+<li><i class="material-icons">undo</i>undo</li>
+<li><i class="material-icons">weekend</i>weekend</li>
+</ul>
+
+<h3>Device</h3>
+<ul>
+<li><i class="material-icons">access_alarm</i>access_alarm</li>
+<li><i class="material-icons">access_alarms</i>access_alarms</li>
+<li><i class="material-icons">access_time</i>access_time</li>
+<li><i class="material-icons">add_alarm</i>add_alarm</li>
+<li><i class="material-icons">airplanemode_active</i>airplanemode_active</li>
+<li><i class="material-icons">airplanemode_inactive</i>airplanemode_inactive</li>
+<li><i class="material-icons">battery_alert</i>battery_alert</li>
+<li><i class="material-icons">battery_charging_full</i>battery_charging_full</li>
+<li><i class="material-icons">battery_full</i>battery_full</li>
+<li><i class="material-icons">battery_std</i>battery_std</li>
+<li><i class="material-icons">battery_unknown</i>battery_unknown</li>
+<li><i class="material-icons">bluetooth</i>bluetooth</li>
+<li><i class="material-icons">bluetooth_connected</i>bluetooth_connected</li>
+<li><i class="material-icons">bluetooth_disabled</i>bluetooth_disabled</li>
+<li><i class="material-icons">bluetooth_searching</i>bluetooth_searching</li>
+<li><i class="material-icons">brightness_auto</i>brightness_auto</li>
+<li><i class="material-icons">brightness_high</i>brightness_high</li>
+<li><i class="material-icons">brightness_low</i>brightness_low</li>
+<li><i class="material-icons">brightness_medium</i>brightness_medium</li>
+<li><i class="material-icons">data_usage</i>data_usage</li>
+<li><i class="material-icons">developer_mode</i>developer_mode</li>
+<li><i class="material-icons">devices</i>devices</li>
+<li><i class="material-icons">dvr</i>dvr</li>
+<li><i class="material-icons">gps_fixed</i>gps_fixed</li>
+<li><i class="material-icons">gps_not_fixed</i>gps_not_fixed</li>
+<li><i class="material-icons">gps_off</i>gps_off</li>
+<li><i class="material-icons">graphic_eq</i>graphic_eq</li>
+<li><i class="material-icons">location_disabled</i>location_disabled</li>
+<li><i class="material-icons">location_searching</i>location_searching</li>
+<li><i class="material-icons">network_cell</i>network_cell</li>
+<li><i class="material-icons">network_wifi</i>network_wifi</li>
+<li><i class="material-icons">nfc</i>nfc</li>
+<li><i class="material-icons">screen_lock_landscape</i>screen_lock_landscape</li>
+<li><i class="material-icons">screen_lock_portrait</i>screen_lock_portrait</li>
+<li><i class="material-icons">screen_lock_rotation</i>screen_lock_rotation</li>
+<li><i class="material-icons">screen_rotation</i>screen_rotation</li>
+<li><i class="material-icons">sd_storage</i>sd_storage</li>
+<li><i class="material-icons">settings_system_daydream</i>settings_system_daydream</li>
+<li><i class="material-icons">signal_cellular_4_bar</i>signal_cellular_4_bar</li>
+<li><i class="material-icons">signal_cellular_connected_no_internet_4_bar</i>signal_cellular_connected_no_internet_4_bar</li>
+<li><i class="material-icons">signal_cellular_no_sim</i>signal_cellular_no_sim</li>
+<li><i class="material-icons">signal_cellular_null</i>signal_cellular_null</li>
+<li><i class="material-icons">signal_cellular_off</i>signal_cellular_off</li>
+<li><i class="material-icons">signal_wifi_4_bar</i>signal_wifi_4_bar</li>
+<li><i class="material-icons">signal_wifi_4_bar_lock</i>signal_wifi_4_bar_lock</li>
+<li><i class="material-icons">signal_wifi_off</i>signal_wifi_off</li>
+<li><i class="material-icons">storage</i>storage</li>
+<li><i class="material-icons">usb</i>usb</li>
+<li><i class="material-icons">wallpaper</i>wallpaper</li>
+<li><i class="material-icons">widgets</i>widgets</li>
+<li><i class="material-icons">wifi_lock</i>wifi_lock</li>
+<li><i class="material-icons">wifi_tethering</i>wifi_tethering</li>
+</ul>
+
+<h3>Editor</h3>
+<ul>
+<li><i class="material-icons">attach_file</i>attach_file</li>
+<li><i class="material-icons">attach_money</i>attach_money</li>
+<li><i class="material-icons">border_all</i>border_all</li>
+<li><i class="material-icons">border_top</i>border_top</li>
+<li><i class="material-icons">border_bottom</i>border_bottom</li>
+<li><i class="material-icons">border_left</i>border_left</li>
+<li><i class="material-icons">border_right</i>border_right</li>
+<li><i class="material-icons">border_clear</i>border_clear</li>
+<li><i class="material-icons">border_color</i>border_color</li>
+<li><i class="material-icons">border_horizontal</i>border_horizontal</li>
+<li><i class="material-icons">border_vertical</i>border_vertical</li>
+<li><i class="material-icons">border_inner</i>border_inner</li>
+<li><i class="material-icons">border_outer</i>border_outer</li>
+<li><i class="material-icons">border_style</i>border_style</li>
+<li><i class="material-icons">bubble_chart</i>bubble_chart</li>
+<li><i class="material-icons">drag_handle</i>drag_handle</li>
+<li><i class="material-icons">format_align_center</i>format_align_center</li>
+<li><i class="material-icons">format_align_justify</i>format_align_justify</li>
+<li><i class="material-icons">format_align_left</i>format_align_left</li>
+<li><i class="material-icons">format_align_right</i>format_align_right</li>
+<li><i class="material-icons">format_bold</i>format_bold</li>
+<li><i class="material-icons">format_clear</i>format_clear</li>
+<li><i class="material-icons">format_color_fill</i>format_color_fill</li>
+<li><i class="material-icons">format_color_reset</i>format_color_reset</li>
+<li><i class="material-icons">format_color_text</i>format_color_text</li>
+<li><i class="material-icons">format_indent_decrease</i>format_indent_decrease</li>
+<li><i class="material-icons">format_indent_increase</i>format_indent_increase</li>
+<li><i class="material-icons">format_italic</i>format_italic</li>
+<li><i class="material-icons">format_line_spacing</i>format_line_spacing</li>
+<li><i class="material-icons">format_list_bulleted</i>format_list_bulleted</li>
+<li><i class="material-icons">format_list_numbered</i>format_list_numbered</li>
+<li><i class="material-icons">format_paint</i>format_paint</li>
+<li><i class="material-icons">format_quote</i>format_quote</li>
+<li><i class="material-icons">format_shapes</i>format_shapes</li>
+<li><i class="material-icons">format_size</i>format_size</li>
+<li><i class="material-icons">format_strikethrough</i>format_strikethrough</li>
+<li><i class="material-icons">format_textdirection_l_to_r</i>format_textdirection_l_to_r</li>
+<li><i class="material-icons">format_textdirection_r_to_l</i>format_textdirection_r_to_l</li>
+<li><i class="material-icons">format_underlined</i>format_underlined</li>
+<li><i class="material-icons">functions</i>functions</li>
+<li><i class="material-icons">highlight</i>highlight</li>
+<li><i class="material-icons">insert_chart</i>insert_chart</li>
+<li><i class="material-icons">insert_comment</i>insert_comment</li>
+<li><i class="material-icons">insert_drive_file</i>insert_drive_file</li>
+<li><i class="material-icons">insert_emoticon</i>insert_emoticon</li>
+<li><i class="material-icons">insert_invitation</i>insert_invitation</li>
+<li><i class="material-icons">insert_link</i>insert_link</li>
+<li><i class="material-icons">insert_photo</i>insert_photo</li>
+<li><i class="material-icons">linear_scale</i>linear_scale</li>
+<li><i class="material-icons">merge_type</i>merge_type</li>
+<li><i class="material-icons">mode_comment</i>mode_comment</li>
+<li><i class="material-icons">mode_edit</i>mode_edit</li>
+<li><i class="material-icons">monetization_on</i>monetization_on</li>
+<li><i class="material-icons">money_off</i>money_off</li>
+<li><i class="material-icons">multiline_chart</i>multiline_chart</li>
+<li><i class="material-icons">pie_chart</i>pie_chart</li>
+<li><i class="material-icons">pie_chart_outlined</i>pie_chart_outlined</li>
+<li><i class="material-icons">publish</i>publish</li>
+<li><i class="material-icons">short_text</i>short_text</li>
+<li><i class="material-icons">show_chart</i>show_chart</li>
+<li><i class="material-icons">space_bar</i>space_bar</li>
+<li><i class="material-icons">strikethrough_s</i>strikethrough_s</li>
+<li><i class="material-icons">text_fields</i>text_fields</li>
+<li><i class="material-icons">title</i>title</li>
+<li><i class="material-icons">vertical_align_bottom</i>vertical_align_bottom</li>
+<li><i class="material-icons">vertical_align_center</i>vertical_align_center</li>
+<li><i class="material-icons">vertical_align_top</i>vertical_align_top</li>
+<li><i class="material-icons">wrap_text</i>wrap_text</li>
+</ul>
+
+<h3>File</h3>
+<ul>
+<li><i class="material-icons">attachment</i>attachment</li>
+<li><i class="material-icons">cloud</i>cloud</li>
+<li><i class="material-icons">cloud_circle</i>cloud_circle</li>
+<li><i class="material-icons">cloud_done</i>cloud_done</li>
+<li><i class="material-icons">cloud_download</i>cloud_download</li>
+<li><i class="material-icons">cloud_off</i>cloud_off</li>
+<li><i class="material-icons">cloud_queue</i>cloud_queue</li>
+<li><i class="material-icons">cloud_upload</i>cloud_upload</li>
+<li><i class="material-icons">create_new_folder</i>create_new_folder</li>
+<li><i class="material-icons">file_download</i>file_download</li>
+<li><i class="material-icons">file_upload</i>file_upload</li>
+<li><i class="material-icons">folder</i>folder</li>
+<li><i class="material-icons">folder_open</i>folder_open</li>
+<li><i class="material-icons">folder_shared</i>folder_shared</li>
+</ul>
+
+<h3>Hardware</h3>
+<ul>
+<li><i class="material-icons">cast</i>cast</li>
+<li><i class="material-icons">cast_connected</i>cast_connected</li>
+<li><i class="material-icons">computer</i>computer</li>
+<li><i class="material-icons">desktop_mac</i>desktop_mac</li>
+<li><i class="material-icons">desktop_windows</i>desktop_windows</li>
+<li><i class="material-icons">developer_board</i>developer_board</li>
+<li><i class="material-icons">device_hub</i>device_hub</li>
+<li><i class="material-icons">devices_other</i>devices_other</li>
+<li><i class="material-icons">dock</i>dock</li>
+<li><i class="material-icons">gamepad</i>gamepad</li>
+<li><i class="material-icons">headset</i>headset</li>
+<li><i class="material-icons">headset_mic</i>headset_mic</li>
+<li><i class="material-icons">keyboard</i>keyboard</li>
+<li><i class="material-icons">keyboard_arrow_down</i>keyboard_arrow_down</li>
+<li><i class="material-icons">keyboard_arrow_left</i>keyboard_arrow_left</li>
+<li><i class="material-icons">keyboard_arrow_right</i>keyboard_arrow_right</li>
+<li><i class="material-icons">keyboard_arrow_up</i>keyboard_arrow_up</li>
+<li><i class="material-icons">keyboard_backspace</i>keyboard_backspace</li>
+<li><i class="material-icons">keyboard_capslock</i>keyboard_capslock</li>
+<li><i class="material-icons">keyboard_hide</i>keyboard_hide</li>
+<li><i class="material-icons">keyboard_return</i>keyboard_return</li>
+<li><i class="material-icons">keyboard_tab</i>keyboard_tab</li>
+<li><i class="material-icons">keyboard_voice</i>keyboard_voice</li>
+<li><i class="material-icons">keyboard_voice</i>keyboard_voice</li>
+<li><i class="material-icons">laptop</i>laptop</li>
+<li><i class="material-icons">laptop_chromebook</i>laptop_chromebook</li>
+<li><i class="material-icons">laptop_mac</i>laptop_mac</li>
+<li><i class="material-icons">laptop_windows</i>laptop_windows</li>
+<li><i class="material-icons">memory</i>memory</li>
+<li><i class="material-icons">mouse</i>mouse</li>
+<li><i class="material-icons">phone_android</i>phone_android</li>
+<li><i class="material-icons">phone_iphone</i>phone_iphone</li>
+<li><i class="material-icons">phonelink</i>phonelink</li>
+<li><i class="material-icons">phonelink_off</i>phonelink_off</li>
+<li><i class="material-icons">power_input</i>power_input</li>
+<li><i class="material-icons">router</i>router</li>
+<li><i class="material-icons">scanner</i>scanner</li>
+<li><i class="material-icons">security</i>security</li>
+<li><i class="material-icons">sim_card</i>sim_card</li>
+<li><i class="material-icons">smartphone</i>smartphone</li>
+<li><i class="material-icons">speaker</i>speaker</li>
+<li><i class="material-icons">speaker_group</i>speaker_group</li>
+<li><i class="material-icons">tablet</i>tablet</li>
+<li><i class="material-icons">tablet_android</i>tablet_android</li>
+<li><i class="material-icons">tablet_mac</i>tablet_mac</li>
+<li><i class="material-icons">toys</i>toys</li>
+<li><i class="material-icons">tv</i>tv</li>
+<li><i class="material-icons">videogame_asset</i>videogame_asset</li>
+<li><i class="material-icons">watch</i>watch</li>
+</ul>
+
+<h3>Image</h3>
+<ul>
+<li><i class="material-icons">add_a_photo</i>add_a_photo</li>
+<li><i class="material-icons">add_to_photos</i>add_to_photos</li>
+<li><i class="material-icons">adjust</i>adjust</li>
+<li><i class="material-icons">assistant</i>assistant</li>
+<li><i class="material-icons">assistant_photo</i>assistant_photo</li>
+<li><i class="material-icons">audiotrack</i>audiotrack</li>
+<li><i class="material-icons">blur_circular</i>blur_circular</li>
+<li><i class="material-icons">blur_linear</i>blur_linear</li>
+<li><i class="material-icons">blur_off</i>blur_off</li>
+<li><i class="material-icons">blur_on</i>blur_on</li>
+<li><i class="material-icons">brightness_1</i>brightness_1</li>
+<li><i class="material-icons">brightness_2</i>brightness_2</li>
+<li><i class="material-icons">brightness_3</i>brightness_3</li>
+<li><i class="material-icons">brightness_4</i>brightness_4</li>
+<li><i class="material-icons">brightness_5</i>brightness_5</li>
+<li><i class="material-icons">brightness_6</i>brightness_6</li>
+<li><i class="material-icons">brightness_7</i>brightness_7</li>
+<li><i class="material-icons">broken_image</i>broken_image</li>
+<li><i class="material-icons">brush</i>brush</li>
+<li><i class="material-icons">burst_mode</i>burst_mode</li>
+<li><i class="material-icons">camera</i>camera</li>
+<li><i class="material-icons">camera_alt</i>camera_alt</li>
+<li><i class="material-icons">camera_front</i>camera_front</li>
+<li><i class="material-icons">camera_rear</i>camera_rear</li>
+<li><i class="material-icons">camera_roll</i>camera_roll</li>
+<li><i class="material-icons">center_focus_strong</i>center_focus_strong</li>
+<li><i class="material-icons">center_focus_weak</i>center_focus_weak</li>
+<li><i class="material-icons">collections</i>collections</li>
+<li><i class="material-icons">collections_bookmark</i>collections_bookmark</li>
+<li><i class="material-icons">color_lens</i>color_lens</li>
+<li><i class="material-icons">colorize</i>colorize</li>
+<li><i class="material-icons">compare</i>compare</li>
+<li><i class="material-icons">control_point</i>control_point</li>
+<li><i class="material-icons">control_point_duplicate</i>control_point_duplicate</li>
+<li><i class="material-icons">crop</i>crop</li>
+<li><i class="material-icons">crop_16_9</i>crop_16_9</li>
+<li><i class="material-icons">crop_3_2</i>crop_3_2</li>
+<li><i class="material-icons">crop_5_4</i>crop_5_4</li>
+<li><i class="material-icons">crop_7_5</i>crop_7_5</li>
+<li><i class="material-icons">crop_din</i>crop_din</li>
+<li><i class="material-icons">crop_free</i>crop_free</li>
+<li><i class="material-icons">crop_landscape</i>crop_landscape</li>
+<li><i class="material-icons">crop_original</i>crop_original</li>
+<li><i class="material-icons">crop_portrait</i>crop_portrait</li>
+<li><i class="material-icons">crop_rotate</i>crop_rotate</li>
+<li><i class="material-icons">crop_square</i>crop_square</li>
+<li><i class="material-icons">dehaze</i>dehaze</li>
+<li><i class="material-icons">details</i>details</li>
+<li><i class="material-icons">edit</i>edit</li>
+<li><i class="material-icons">exposure</i>exposure</li>
+<li><i class="material-icons">exposure_neg_1</i>exposure_neg_1</li>
+<li><i class="material-icons">exposure_neg_2</i>exposure_neg_2</li>
+<li><i class="material-icons">exposure_plus_1</i>exposure_plus_1</li>
+<li><i class="material-icons">exposure_plus_2</i>exposure_plus_2</li>
+<li><i class="material-icons">exposure_zero</i>exposure_zero</li>
+<li><i class="material-icons">filter</i>filter</li>
+<li><i class="material-icons">filter_1</i>filter_1</li>
+<li><i class="material-icons">filter_2</i>filter_2</li>
+<li><i class="material-icons">filter_3</i>filter_3</li>
+<li><i class="material-icons">filter_4</i>filter_4</li>
+<li><i class="material-icons">filter_5</i>filter_5</li>
+<li><i class="material-icons">filter_6</i>filter_6</li>
+<li><i class="material-icons">filter_7</i>filter_7</li>
+<li><i class="material-icons">filter_8</i>filter_8</li>
+<li><i class="material-icons">filter_9</i>filter_9</li>
+<li><i class="material-icons">filter_9_plus</i>filter_9_plus</li>
+<li><i class="material-icons">filter_b_and_w</i>filter_b_and_w</li>
+<li><i class="material-icons">filter_center_focus</i>filter_center_focus</li>
+<li><i class="material-icons">filter_drama</i>filter_drama</li>
+<li><i class="material-icons">filter_frames</i>filter_frames</li>
+<li><i class="material-icons">filter_hdr</i>filter_hdr</li>
+<li><i class="material-icons">filter_none</i>filter_none</li>
+<li><i class="material-icons">filter_tilt_shift</i>filter_tilt_shift</li>
+<li><i class="material-icons">filter_vintage</i>filter_vintage</li>
+<li><i class="material-icons">flare</i>flare</li>
+<li><i class="material-icons">flash_auto</i>flash_auto</li>
+<li><i class="material-icons">flash_off</i>flash_off</li>
+<li><i class="material-icons">flash_on</i>flash_on</li>
+<li><i class="material-icons">flip</i>flip</li>
+<li><i class="material-icons">gradient</i>gradient</li>
+<li><i class="material-icons">grain</i>grain</li>
+<li><i class="material-icons">grid_off</i>grid_off</li>
+<li><i class="material-icons">grid_on</i>grid_on</li>
+<li><i class="material-icons">hdr_off</i>hdr_off</li>
+<li><i class="material-icons">hdr_on</i>hdr_on</li>
+<li><i class="material-icons">hdr_strong</i>hdr_strong</li>
+<li><i class="material-icons">hdr_weak</i>hdr_weak</li>
+<li><i class="material-icons">healing</i>healing</li>
+<li><i class="material-icons">image</i>image</li>
+<li><i class="material-icons">image_aspect_ratio</i>image_aspect_ratio</li>
+<li><i class="material-icons">iso</i>iso</li>
+<li><i class="material-icons">landscape</i>landscape</li>
+<li><i class="material-icons">leak_add</i>leak_add</li>
+<li><i class="material-icons">leak_remove</i>leak_remove</li>
+<li><i class="material-icons">lens</i>lens</li>
+<li><i class="material-icons">linked_camera</i>linked_camera</li>
+<li><i class="material-icons">looks</i>looks</li>
+<li><i class="material-icons">looks_one</i>looks_one</li>
+<li><i class="material-icons">looks_two</i>looks_two</li>
+<li><i class="material-icons">looks_3</i>looks_3</li>
+<li><i class="material-icons">looks_4</i>looks_4</li>
+<li><i class="material-icons">looks_5</i>looks_5</li>
+<li><i class="material-icons">looks_6</i>looks_6</li>
+<li><i class="material-icons">loupe</i>loupe</li>
+<li><i class="material-icons">monochrome_photos</i>monochrome_photos</li>
+<li><i class="material-icons">movie_creation</i>movie_creation</li>
+<li><i class="material-icons">movie_filter</i>movie_filter</li>
+<li><i class="material-icons">music_note</i>music_note</li>
+<li><i class="material-icons">nature</i>nature</li>
+<li><i class="material-icons">nature_people</i>nature_people</li>
+<li><i class="material-icons">navigate_before</i>navigate_before</li>
+<li><i class="material-icons">navigate_next</i>navigate_next</li>
+<li><i class="material-icons">palette</i>palette</li>
+<li><i class="material-icons">panorama</i>panorama</li>
+<li><i class="material-icons">panorama_fish_eye</i>panorama_fish_eye</li>
+<li><i class="material-icons">panorama_horizontal</i>panorama_horizontal</li>
+<li><i class="material-icons">panorama_vertical</i>panorama_vertical</li>
+<li><i class="material-icons">panorama_wide_angle</i>panorama_wide_angle</li>
+<li><i class="material-icons">photo</i>photo</li>
+<li><i class="material-icons">photo_album</i>photo_album</li>
+<li><i class="material-icons">photo_camera</i>photo_camera</li>
+<li><i class="material-icons">photo_filter</i>photo_filter</li>
+<li><i class="material-icons">photo_library</i>photo_library</li>
+<li><i class="material-icons">photo_size_select_actual</i>photo_size_select_actual</li>
+<li><i class="material-icons">photo_size_select_large</i>photo_size_select_large</li>
+<li><i class="material-icons">photo_size_select_small</i>photo_size_select_small</li>
+<li><i class="material-icons">picture_as_pdf</i>picture_as_pdf</li>
+<li><i class="material-icons">portrait</i>portrait</li>
+<li><i class="material-icons">remove_red_eye</i>remove_red_eye</li>
+<li><i class="material-icons">rotate_90_degrees_ccw</i>rotate_90_degrees_ccw</li>
+<li><i class="material-icons">rotate_left</i>rotate_left</li>
+<li><i class="material-icons">rotate_right</i>rotate_right</li>
+<li><i class="material-icons">slideshow</i>slideshow</li>
+<li><i class="material-icons">straighten</i>straighten</li>
+<li><i class="material-icons">style</i>style</li>
+<li><i class="material-icons">switch_camera</i>switch_camera</li>
+<li><i class="material-icons">switch_video</i>switch_video</li>
+<li><i class="material-icons">tag_faces</i>tag_faces</li>
+<li><i class="material-icons">texture</i>texture</li>
+<li><i class="material-icons">timelapse</i>timelapse</li>
+<li><i class="material-icons">timer</i>timer</li>
+<li><i class="material-icons">timer_10</i>timer_10</li>
+<li><i class="material-icons">timer_3</i>timer_3</li>
+<li><i class="material-icons">timer_off</i>timer_off</li>
+<li><i class="material-icons">tonality</i>tonality</li>
+<li><i class="material-icons">transform</i>transform</li>
+<li><i class="material-icons">tune</i>tune</li>
+<li><i class="material-icons">view_comfy</i>view_comfy</li>
+<li><i class="material-icons">view_compact</i>view_compact</li>
+<li><i class="material-icons">vignette</i>vignette</li>
+<li><i class="material-icons">wb_auto</i>wb_auto</li>
+<li><i class="material-icons">wb_cloudy</i>wb_cloudy</li>
+<li><i class="material-icons">wb_incandescent</i>wb_incandescent</li>
+<li><i class="material-icons">wb_iridescent</i>wb_iridescent</li>
+<li><i class="material-icons">wb_sunny</i>wb_sunny</li>
+</ul>
+
+<h3>Maps</h3>
+<ul>
+<li><i class="material-icons">add_location</i>add_location</li>
+<li><i class="material-icons">beenhere</i>beenhere</li>
+<li><i class="material-icons">directions</i>directions</li>
+<li><i class="material-icons">directions_bike</i>directions_bike</li>
+<li><i class="material-icons">directions_boat</i>directions_boat</li>
+<li><i class="material-icons">directions_bus</i>directions_bus</li>
+<li><i class="material-icons">directions_car</i>directions_car</li>
+<li><i class="material-icons">directions_railway</i>directions_railway</li>
+<li><i class="material-icons">directions_run</i>directions_run</li>
+<li><i class="material-icons">directions_subway</i>directions_subway</li>
+<li><i class="material-icons">directions_transit</i>directions_transit</li>
+<li><i class="material-icons">directions_walk</i>directions_walk</li>
+<li><i class="material-icons">edit_location</i>edit_location</li>
+<li><i class="material-icons">ev_station</i>ev_station</li>
+<li><i class="material-icons">flight</i>flight</li>
+<li><i class="material-icons">hotel</i>hotel</li>
+<li><i class="material-icons">layers</i>layers</li>
+<li><i class="material-icons">layers_clear</i>layers_clear</li>
+<li><i class="material-icons">local_activity</i>local_activity</li>
+<li><i class="material-icons">local_airport</i>local_airport</li>
+<li><i class="material-icons">local_atm</i>local_atm</li>
+<li><i class="material-icons">local_bar</i>local_bar</li>
+<li><i class="material-icons">local_cafe</i>local_cafe</li>
+<li><i class="material-icons">local_car_wash</i>local_car_wash</li>
+<li><i class="material-icons">local_convenience_store</i>local_convenience_store</li>
+<li><i class="material-icons">local_dining</i>local_dining</li>
+<li><i class="material-icons">local_drink</i>local_drink</li>
+<li><i class="material-icons">local_florist</i>local_florist</li>
+<li><i class="material-icons">local_gas_station</i>local_gas_station</li>
+<li><i class="material-icons">local_grocery_store</i>local_grocery_store</li>
+<li><i class="material-icons">local_hospital</i>local_hospital</li>
+<li><i class="material-icons">local_hotel</i>local_hotel</li>
+<li><i class="material-icons">local_laundry_service</i>local_laundry_service</li>
+<li><i class="material-icons">local_library</i>local_library</li>
+<li><i class="material-icons">local_mall</i>local_mall</li>
+<li><i class="material-icons">local_movies</i>local_movies</li>
+<li><i class="material-icons">local_offer</i>local_offer</li>
+<li><i class="material-icons">local_parking</i>local_parking</li>
+<li><i class="material-icons">local_pharmacy</i>local_pharmacy</li>
+<li><i class="material-icons">local_phone</i>local_phone</li>
+<li><i class="material-icons">local_pizza</i>local_pizza</li>
+<li><i class="material-icons">local_play</i>local_play</li>
+<li><i class="material-icons">local_post_office</i>local_post_office</li>
+<li><i class="material-icons">local_printshop</i>local_printshop</li>
+<li><i class="material-icons">local_see</i>local_see</li>
+<li><i class="material-icons">local_shipping</i>local_shipping</li>
+<li><i class="material-icons">local_taxi</i>local_taxi</li>
+<li><i class="material-icons">map</i>map</li>
+<li><i class="material-icons">my_location</i>my_location</li>
+<li><i class="material-icons">navigation</i>navigation</li>
+<li><i class="material-icons">near_me</i>near_me</li>
+<li><i class="material-icons">person_pin</i>person_pin</li>
+<li><i class="material-icons">person_pin_circle</i>person_pin_circle</li>
+<li><i class="material-icons">pin_drop</i>pin_drop</li>
+<li><i class="material-icons">place</i>place</li>
+<li><i class="material-icons">rate_review</i>rate_review</li>
+<li><i class="material-icons">restaurant</i>restaurant</li>
+<li><i class="material-icons">restaurant_menu</i>restaurant_menu</li>
+<li><i class="material-icons">satellite</i>satellite</li>
+<li><i class="material-icons">store_mall_directory</i>store_mall_directory</li>
+<li><i class="material-icons">streetview</i>streetview</li>
+<li><i class="material-icons">subway</i>subway</li>
+<li><i class="material-icons">terrain</i>terrain</li>
+<li><i class="material-icons">traffic</i>traffic</li>
+<li><i class="material-icons">train</i>train</li>
+<li><i class="material-icons">tram</i>tram</li>
+<li><i class="material-icons">transfer_within_a_station</i>transfer_within_a_station</li>
+<li><i class="material-icons">zoom_out_map</i>zoom_out_map</li>
+</ul>
+
+<h3>Navigation</h3>
+<ul>
+<li><i class="material-icons">apps</i>apps</li>
+<li><i class="material-icons">arrow_back</i>arrow_back</li>
+<li><i class="material-icons">arrow_downward</i>arrow_downward</li>
+<li><i class="material-icons">arrow_drop_down</i>arrow_drop_down</li>
+<li><i class="material-icons">arrow_drop_down_circle</i>arrow_drop_down_circle</li>
+<li><i class="material-icons">arrow_drop_up</i>arrow_drop_up</li>
+<li><i class="material-icons">arrow_forward</i>arrow_forward</li>
+<li><i class="material-icons">arrow_upward</i>arrow_upward</li>
+<li><i class="material-icons">cancel</i>cancel</li>
+<li><i class="material-icons">check</i>check</li>
+<li><i class="material-icons">chevron_left</i>chevron_left</li>
+<li><i class="material-icons">chevron_right</i>chevron_right</li>
+<li><i class="material-icons">close</i>close</li>
+<li><i class="material-icons">expand_less</i>expand_less</li>
+<li><i class="material-icons">expand_more</i>expand_more</li>
+<li><i class="material-icons">first_page</i>first_page</li>
+<li><i class="material-icons">fullscreen</i>fullscreen</li>
+<li><i class="material-icons">fullscreen_exit</i>fullscreen_exit</li>
+<li><i class="material-icons">last_page</i>last_page</li>
+<li><i class="material-icons">menu</i>menu</li>
+<li><i class="material-icons">more_horiz</i>more_horiz</li>
+<li><i class="material-icons">more_vert</i>more_vert</li>
+<li><i class="material-icons">refresh</i>refresh</li>
+<li><i class="material-icons">subdirectory_arrow_left</i>subdirectory_arrow_left</li>
+<li><i class="material-icons">subdirectory_arrow_right</i>subdirectory_arrow_right</li>
+</ul>
+
+<h3>Notification</h3>
+<ul>
+<li><i class="material-icons">adb</i>adb</li>
+<li><i class="material-icons">airline_seat_flat</i>airline_seat_flat</li>
+<li><i class="material-icons">airline_seat_flat_angled</i>airline_seat_flat_angled</li>
+<li><i class="material-icons">airline_seat_individual_suite</i>airline_seat_individual_suite</li>
+<li><i class="material-icons">airline_seat_legroom_extra</i>airline_seat_legroom_extra</li>
+<li><i class="material-icons">airline_seat_legroom_normal</i>airline_seat_legroom_normal</li>
+<li><i class="material-icons">airline_seat_legroom_reduced</i>airline_seat_legroom_reduced</li>
+<li><i class="material-icons">airline_seat_recline_extra</i>airline_seat_recline_extra</li>
+<li><i class="material-icons">airline_seat_recline_normal</i>airline_seat_recline_normal</li>
+<li><i class="material-icons">bluetooth_audio</i>bluetooth_audio</li>
+<li><i class="material-icons">confirmation_number</i>confirmation_number</li>
+<li><i class="material-icons">disc_full</i>disc_full</li>
+<li><i class="material-icons">do_not_disturb</i>do_not_disturb</li>
+<li><i class="material-icons">do_not_disturb_alt</i>do_not_disturb_alt</li>
+<li><i class="material-icons">do_not_disturb_off</i>do_not_disturb_off</li>
+<li><i class="material-icons">do_not_disturb_on</i>do_not_disturb_on</li>
+<li><i class="material-icons">drive_eta</i>drive_eta</li>
+<li><i class="material-icons">enhanced_encryption</i>enhanced_encryption</li>
+<li><i class="material-icons">event_available</i>event_available</li>
+<li><i class="material-icons">event_busy</i>event_busy</li>
+<li><i class="material-icons">event_note</i>event_note</li>
+<li><i class="material-icons">folder_special</i>folder_special</li>
+<li><i class="material-icons">live_tv</i>live_tv</li>
+<li><i class="material-icons">mms</i>mms</li>
+<li><i class="material-icons">more</i>more</li>
+<li><i class="material-icons">network_check</i>network_check</li>
+<li><i class="material-icons">network_locked</i>network_locked</li>
+<li><i class="material-icons">no_encryption</i>no_encryption</li>
+<li><i class="material-icons">ondemand_video</i>ondemand_video</li>
+<li><i class="material-icons">personal_video</i>personal_video</li>
+<li><i class="material-icons">phone_bluetooth_speaker</i>phone_bluetooth_speaker</li>
+<li><i class="material-icons">phone_forwarded</i>phone_forwarded</li>
+<li><i class="material-icons">phone_in_talk</i>phone_in_talk</li>
+<li><i class="material-icons">phone_locked</i>phone_locked</li>
+<li><i class="material-icons">phone_missed</i>phone_missed</li>
+<li><i class="material-icons">phone_paused</i>phone_paused</li>
+<li><i class="material-icons">power</i>power</li>
+<li><i class="material-icons">priority_high</i>priority_high</li>
+<li><i class="material-icons">sd_card</i>sd_card</li>
+<li><i class="material-icons">sim_card_alert</i>sim_card_alert</li>
+<li><i class="material-icons">sms</i>sms</li>
+<li><i class="material-icons">sms_failed</i>sms_failed</li>
+<li><i class="material-icons">sync</i>sync</li>
+<li><i class="material-icons">sync_disabled</i>sync_disabled</li>
+<li><i class="material-icons">sync_problem</i>sync_problem</li>
+<li><i class="material-icons">system_update</i>system_update</li>
+<li><i class="material-icons">tap_and_play</i>tap_and_play</li>
+<li><i class="material-icons">time_to_leave</i>time_to_leave</li>
+<li><i class="material-icons">vibration</i>vibration</li>
+<li><i class="material-icons">voice_chat</i>voice_chat</li>
+<li><i class="material-icons">vpn_lock</i>vpn_lock</li>
+<li><i class="material-icons">wc</i>wc</li>
+<li><i class="material-icons">wifi</i>wifi</li>
+</ul>
+
+<h3>Palces</h3>
+<ul>
+<li><i class="material-icons">wifi</i>wifi</li>
+<li><i class="material-icons">ac_unit</i>ac_unit</li>
+<li><i class="material-icons">airport_shuttle</i>airport_shuttle</li>
+<li><i class="material-icons">all_inclusive</i>all_inclusive</li>
+<li><i class="material-icons">beach_access</i>beach_access</li>
+<li><i class="material-icons">business_center</i>business_center</li>
+<li><i class="material-icons">casino</i>casino</li>
+<li><i class="material-icons">child_care</i>child_care</li>
+<li><i class="material-icons">child_friendly</i>child_friendly</li>
+<li><i class="material-icons">fitness_center</i>fitness_center</li>
+<li><i class="material-icons">free_breakfast</i>free_breakfast</li>
+<li><i class="material-icons">golf_course</i>golf_course</li>
+<li><i class="material-icons">hot_tub</i>hot_tub</li>
+<li><i class="material-icons">kitchen</i>kitchen</li>
+<li><i class="material-icons">pool</i>pool</li>
+<li><i class="material-icons">room_service</i>room_service</li>
+<li><i class="material-icons">rv_hookup</i>rv_hookup</li>
+<li><i class="material-icons">smoke_free</i>smoke_free</li>
+<li><i class="material-icons">smoking_rooms</i>smoking_rooms</li>
+<li><i class="material-icons">spa</i>spa</li>
+</ul>
+
+<h3>Social</h3>
+<ul>
+<li><i class="material-icons">cake</i>cake</li>
+<li><i class="material-icons">domain</i>domain</li>
+<li><i class="material-icons">group</i>group</li>
+<li><i class="material-icons">group_add</i>group_add</li>
+<li><i class="material-icons">location_city</i>location_city</li>
+<li><i class="material-icons">mood</i>mood</li>
+<li><i class="material-icons">mood_bad</i>mood_bad</li>
+<li><i class="material-icons">notifications</i>notifications</li>
+<li><i class="material-icons">notifications_active</i>notifications_active</li>
+<li><i class="material-icons">notifications_none</i>notifications_none</li>
+<li><i class="material-icons">notifications_off</i>notifications_off</li>
+<li><i class="material-icons">notifications_paused</i>notifications_paused</li>
+<li><i class="material-icons">pages</i>pages</li>
+<li><i class="material-icons">party_mode</i>party_mode</li>
+<li><i class="material-icons">people</i>people</li>
+<li><i class="material-icons">people_outline</i>people_outline</li>
+<li><i class="material-icons">person</i>person</li>
+<li><i class="material-icons">person_add</i>person_add</li>
+<li><i class="material-icons">person_outline</i>person_outline</li>
+<li><i class="material-icons">plus_one</i>plus_one</li>
+<li><i class="material-icons">poll</i>poll</li>
+<li><i class="material-icons">public</i>public</li>
+<li><i class="material-icons">school</i>school</li>
+<li><i class="material-icons">sentiment_dissatisfied</i>sentiment_dissatisfied</li>
+<li><i class="material-icons">sentiment_neutral</i>sentiment_neutral</li>
+<li><i class="material-icons">sentiment_satisfied</i>sentiment_satisfied</li>
+<li><i class="material-icons">sentiment_very_dissatisfied</i>sentiment_very_dissatisfied</li>
+<li><i class="material-icons">sentiment_very_satisfied</i>sentiment_very_satisfied</li>
+<li><i class="material-icons">share</i>share</li>
+<li><i class="material-icons">whatshot</i>whatshot</li>
+</ul>
+
+<h3>Toggle</h3>
+<ul>
+<li><i class="material-icons">check_box</i>check_box</li>
+<li><i class="material-icons">check_box_outline_blank</i>check_box_outline_blank</li>
+<li><i class="material-icons">indeterminate_check_box</i>indeterminate_check_box</li>
+<li><i class="material-icons">radio_button_checked</i>radio_button_checked</li>
+<li><i class="material-icons">radio_button_unchecked</i>radio_button_unchecked</li>
+<li><i class="material-icons">star</i>star</li>
+<li><i class="material-icons">star_border</i>star_border</li>
+<li><i class="material-icons">star_half</i>star_half</li>
+<li><i class="material-icons">star_half</i>star_half</li>
+</ul>
+</div>
+<!-------------1------------>
+
+</div>
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $('select').material_select();
+	$('.carousel').carousel();
+	$('.modal').modal();
+	$('#modal1').modal('open');
+	$('#modal1').modal('close');
+	
+	$('ul.tabs').tabs();
+  });
+  $(".button-collapse").sideNav();
+  $(".dropdown-button").dropdown();
+  
+</script>
+
+<script>
+function myFunction() {
+    // Declare variables
+    var input, filter, ul, li, a, i;
+    input = document.getElementById('myInput');
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName('li');
+
+    // Loop through all list items, and hide those who don't match the search query
+    for (i = 0; i < li.length; i++) {
+        a = li[i];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+
+</body>
+</html>
